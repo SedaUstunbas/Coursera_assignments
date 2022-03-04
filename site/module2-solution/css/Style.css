@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: maroon;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 120%;
+    font-style: italic;
+    text-align: center;
+}
+h1 {
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: capitalize;
+    color: white;
+    margin: auto;
+    padding: 50px;
+    font-size: 175%;
+}
+section {
+    border:  1px solid black;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 0px 2px 2p 0px; 
+    background-color: rgb(73, 78, 73);
+    color: whitesmoke;
+}
+h4 {
+    width: fit-content;
+    border: 1px solid black;
+    float: right;
+    margin-top: -1px;
+    margin-left: -1px;
+    padding: 2px 40px 2px 40px;
+    font-size: 125%;
+}
+#first {
+    background-color: rgb(235, 92, 92);
+}
+#second {
+    background-color: rgb(240, 177, 41);
+}
+#third {
+    background-color: rgb(4, 131, 11);
+}
+p {
+    clear: both;
+    margin-top: 0%;
+    padding: 5px;
+}
+
+h2 {
+    clear: both;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    padding-top: 50px;
+}
+.row {
+    width: 100%;
+}
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        width: 33%;
+    } 
+    
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        float: left;
+        width: 50%;
+        
+    }
+    .col-md-12 {
+        float: left;
+        width: 100%;
+    }
+
+}
+@media (max-width: 767px) {
+    .col-xs-12 {
+        float: left;
+        width: 100%;
+    }
+
+}
